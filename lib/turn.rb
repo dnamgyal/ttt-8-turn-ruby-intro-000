@@ -3,7 +3,7 @@ def turn(board)
   input = gets.line
   input = input_to_index(input)
   if valid_move?(board, input) == true
-    move(board, index, x='X')
+    move(board, input, x='X')
     display_board(board)
   end
 end
