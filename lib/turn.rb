@@ -23,6 +23,7 @@ def position_taken(board, index)
   else
     return true
   end
+end
 
 def display_board(moves)
   puts " #{moves[0]} | #{moves[1]} | #{moves[2]} "
